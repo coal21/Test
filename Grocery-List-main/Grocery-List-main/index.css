@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    border: 100px solid;
+    border-image: url("https://blenderartists.org/uploads/default/original/4X/3/5/b/35bc31bcc758d3111cfd6334efdaf090d4fa1cd4.jpeg") 40% round;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#headerDiv {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid white;
+    margin: 0px;
+}
+#textBox {
+    height: 30px;
+    font-size: large;
+}
+#addItemBtn {
+    height: 25px;
+    font-size: 13px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+/*  */
+
+#listDiv {
+    background-color: black;
+    text-align: center;
+    display: inline;
+    float: left;
+    width: 65%;
+    border: 2px solid white;
+    border-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.listBtn {
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+    background-color: rgb(107, 22, 22);
+    color: rgb(102, 26, 26);
+    border: 1px solid white;
+    transition: ease-out 0.4s;
+    font-size:  1rem;
+    outline: none;
+}
+.listBtn {
+    cursor: pointer;
+    color: rgb(246, 244, 244);
+}
+
+#viewerDiv {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    width: 32%;
+    display: flexbox;
+    float: right;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* Cool Hover button stuff below */
+
+#viewUnpurchased{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(176, 73, 32);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(28, 28, 7);
+    transition: ease-out 0.3s;
+    font-size:  1rem;
+    outline: none;
+}
+#viewUnpurchased:hover {
+    box-shadow: inset 300px 0 0 0 rgb(233, 119, 210);
+    cursor: pointer;
+    color: black;
+}
+
+#viewPurchased{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(176, 73, 32);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(28, 28, 7);
+    transition: ease-out 0.3s;
+    font-size:  1rem;
+    outline: none;
+}
+
+#viewPurchased:hover {
+    box-shadow: inset 300px 0 0 0 rgb(233, 119, 210);
+    cursor: pointer;
+    color: black;
+}
+
