@@ -1,0 +1,55 @@
+body {
+    background-color: cornflowerblue;
+    background:url(https://steamuserimages-a.akamaihd.net/ugc/795361368769953984/D3B21451B64CC06F2A2C31BD0435DA28166BF018/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.anything {
+    margin: 70px;
+    color: rgba(245, 55, 8, 0.874);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    font-size: 70px;
+    background-color: rgb(255, 255, 255);
+}
+#submit {
+    margin: 20px;
+    background-color: rgb(128, 0, 0);
+    width: 700px;
+    color: white;
+    font-size: 50px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.textItems {
+    background-color: rgb(89, 0, 96);
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 0px;
+}
+#prompt {
+    background-color: rgb(10, 0, 123);
+}
+input[type=radio] {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+#div1{
+    float: left;
+    display: float;
+    width: 50%;
+}
+#div2 {
+    float: right;
+    display: flex;
+    width: 40%;
+}
+
+.hide {
+    display: none;
+}
